@@ -22,7 +22,7 @@
     <!-- org.odftoolkit:odfdom-java:jar:0.9.0-RC1 bundles Jena 3.9.0 so we should match that
          Jena 3.15.0 doesn't work. Versions through 3.14.0 appear to, but we'll be conservative
     -->
-    <jena.version>3.9.0</jena.version>
+    <jena.version>4.2.0</jena.version>
     <okhttp.version>4.9.0</okhttp.version>
   </properties>
 
@@ -223,7 +223,7 @@
     <dependency>
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-text</artifactId>
-        <version>1.9</version>
+        <version>1.10.0</version>
     </dependency>
     <dependency>
       <groupId>commons-validator</groupId>
@@ -243,7 +243,7 @@
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-compress</artifactId>
-      <version>1.20</version>
+      <version>1.21</version>
     </dependency>
     <dependency>
       <groupId>org.jsoup</groupId>
@@ -263,12 +263,12 @@
     <dependency>
       <groupId>org.apache.poi</groupId>
       <artifactId>poi-ooxml</artifactId>
-      <version>4.1.2</version>
+      <version>5.1.0</version>
     </dependency>
     <dependency>
       <groupId>org.odftoolkit</groupId>
       <artifactId>odfdom-java</artifactId>
-      <version>0.9.0-RC1</version>
+      <version>0.10.0</version>
     </dependency>
     <dependency>
       <groupId>org.openrefine.dependencies</groupId>
